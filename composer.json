@@ -1,0 +1,38 @@
+{
+	"name": "lionar/support",
+	"version": "0.0.1",
+	"description": "",
+	"keywords": [ "Lionar", "Support" ],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Aron Wouters",
+			"email": "lionar@mail.com",
+			"role": "Developer"
+		}
+	],
+	"require" : {
+
+  	},
+	"require-dev": {
+		
+	},
+	"autoload": {
+    	"psr-4": {
+			"": "source"
+   	 	},
+   	 	"files": [
+   	 		"source/helpers/filesystem.php",
+   	 		"source/helpers/text.php"
+   	 	]
+  	},
+	"autoload-dev": {
+    	"psr-4": {
+			
+		}
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "dev"
+}
