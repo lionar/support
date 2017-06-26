@@ -1,6 +1,6 @@
 <?php
 
-class accessible
+trait accessible
 {
 	public function __get ( $property )
 	{
