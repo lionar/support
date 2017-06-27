@@ -1,7 +1,5 @@
 <?php
 
-namespace text;
-
 function capitalize ( string $text ) : string
 {
 	return ucfirst ( strtolower ( $text ) );
