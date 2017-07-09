@@ -2,7 +2,7 @@
 
 namespace is;
 
-use JsonSerializable as jsonserializable
+use JsonSerializable as jsonserializable;
 
 interface accessible extends jsonserializable
 {

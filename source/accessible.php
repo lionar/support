@@ -12,4 +12,9 @@ trait accessible
 	{
     	return isset ( $this->{ $name } );
 	}
+
+	public function jsonSerialize ( )
+    {
+        return get_object_vars ( $this );
+    }
 }
