@@ -20,7 +20,7 @@
 	},
 	"autoload": {
     	"psr-4": {
-			"": [ "source/accessibility", "source/exceptions" ]
+			"": [ "source", "source/accessibility", "source/exceptions" ]
    	 	},
    	 	"files": [
    	 		"source/helpers/filesystem.php",
