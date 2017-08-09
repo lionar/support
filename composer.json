@@ -23,6 +23,7 @@
 			"": [ "source/accessibility", "source/exceptions" ]
    	 	},
    	 	"files": [
+   	 		"source/helpers/filesystem.php",
    	 		"source/helpers/text.php"
    	 	]
   	},
